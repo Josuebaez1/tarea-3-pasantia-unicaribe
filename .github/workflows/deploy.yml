@@ -1,4 +1,3 @@
-Set-Content -Path .github\workflows\deploy.yml -Value @"
 name: CI/CD Pipeline - Docker Build & Push
 
 on:
@@ -37,4 +36,3 @@ jobs:
     steps:
       - name: Notificar despliegue
         run: echo "Imagen Docker construida y publicada con exito en Docker Hub."
-"@
